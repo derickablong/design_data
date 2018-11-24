@@ -1,0 +1,77 @@
+.dd-icon:before,
+.dd-icon:after {	
+	position: absolute;
+    line-height: 1;
+    font-family: dashicons;
+    text-decoration: inherit;
+    font-weight: 400;
+    font-style: normal;    
+    text-align: center;    
+    transition: color .1s ease-in 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #ccc;
+}
+.icon-user:before { content: "\f338"; }
+.icon-order:before { content: "\f174"; }
+.icon-sku:before { content: "\f323"; }
+.icon-template:before { content: "\f464"; }
+.icon-snapshot:before { content: "\f161"; }
+
+
+#dd-header {
+	overflow: hidden;
+	margin-top: 60px;
+}
+.dd-box {
+	position: relative;
+	float: left;
+	padding-left: 40px;
+	padding-right: 30px;
+	margin-right: 30px;
+	border-right: dashed 1px #ccc;
+}
+.dd-box:last-child {
+	padding-right: 0;
+	margin-right: 0;
+	border-right: none;
+}
+.dd-box.dd-icon:before {
+	font-size: 30px;
+	top: 0;
+	left: 0;
+}
+.dd-box a { text-decoration: none; }
+.dd-label {
+	display: block;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.dd-data {
+	display: block;
+	margin-top: 10px;
+	font-size: 16px;
+}
+
+
+#dd-json {
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);    
+	padding: 30px;
+	max-width: 1000px;
+	margin-top: 60px;
+}
+.dd-json-data {
+	margin-top: 30px;
+	padding: 40px;
+	background-color: #222f3e;	
+	font-weight: 600;
+	line-height: 24px;
+	font-size: 14px;
+}
+.dd-curle { color: #f368e0!important; }
+.dd-bracket { color: #ff6b6b!important; }
+.dd-index { color: #fad390; }
+.dd-value, .dd-colon { color: #82ccdd; }
